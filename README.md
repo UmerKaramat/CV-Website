@@ -21,15 +21,15 @@ It is designed to be clean, professional, and responsive on both desktop and mob
 - **Footer:** Simple copyright footer
 
 ## Live Website
-[Vercel Live Link](YOUR_LIVE_LINK_HERE)
+[Vercel Live Link](https://cv-umer.vercel.app/)
 
 ## GitHub Repository
-[Repository Link](https://github.com/UmerKaramat/cv-repo-name)
+[Repository Link](https://github.com/UmerKaramat/CV-Website)
 
 ## Author
 - **Name:** Umer Karamat
 - **Roll Number:** (23L-0873)
 
-## Bonus Features (Optional)
+## Bonus Features 
 - Downloadable CV
 - Animations
