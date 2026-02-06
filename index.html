@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umer Karamat | CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <img class="profile-pic" src="images/ProfilePic2.png" alt="ProfilePic">
+
+            <div class="name-title">
+                <h1>Umer Karamat</h1>
+                <h2>Computer Science Student</h2>
+            </div>
+
+            <div class="contact-info">
+                <span>📧 umerkaramat45@gmail.com</span>
+                <span>📱 +92 3097892710</span>
+                <span>📍 Lahore, Pakistan</span>
+            </div>
+
+            <div class="download-cv">
+                <a href="images/CV_Umer_Karamat_2026.docx" download>
+                    <button>Download CV</button>
+                </a>
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="about-content">
+                <h2 class="aboutH">About Me</h2>
+                <hr>
+                <p>I am a passionate Computer Science student with a strong interest in software development and
+                    problem-solving. I enjoy learning new technologies and building projects that make a difference.
+                    Currently pursuing my degree, I am eager to apply my skills in real-world scenarios through
+                    internships and collaborative projects.</p>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <hr>
+            <div class="edu-item">
+                <h3>BS Computer Science – FAST NUCES</h3>
+                <p>CGPA: 3.62 | 2023 – 2027</p>
+                <h3>HSSC – Government College Lahore</h3>
+                <p>94.09% | 2021 – 2023</p>
+                <h3>SSC – Society Public School</h3>
+                <p>99.81% | 2019 – 2021</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <hr>
+            <h3>Technical Skills</h3>
+            <div class="TechnicalSkills">
+                <div class="TS">HTML & CSS</div>
+                <div class="TS">JavaScript</div>
+                <div class="TS">Python</div>
+                <div class="TS">C/C++</div>
+                <div class="TS">SQL</div>
+                <div class="TS">Assembly</div>
+                <div class="TS">Git & GitHub</div>
+            </div>
+            <h3>Soft Skills</h3>
+            <div class="SoftSkills">
+                <div class="SS">Problem Solving</div>
+                <div class="SS">Teamwork</div>
+                <div class="SS">Communication</div>
+                <div class="SS">Time Management</div>
+                <div class="SS">Adaptability</div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <hr>
+            <div class="Project-items">
+                <div class="Project-item">
+                    <h3>HireX – Automated Hiring Platform</h3>
+                    <p>An automated hiring platform built using backend services, REST APIs, and database systems to
+                        manage CV uploads and candidate–job matching. The system includes automated notifications for
+                        candidates and interviewers and is designed with scalable, modular architecture principles.</p>
+                </div>
+                <div class="Project-item">
+                    <h3>Grocery Management System </h3>
+                    <p>A grocery management backend developed using Microsoft SQL Server to handle inventory, stock, and
+                        sales data. It uses structured database design, stored procedures, and role-based access control
+                        to support admin, stock, and analytics modules.</p>
+                </div>
+                <div class="Project-item">
+                    <h3>Flappy Bird Game (Assembly Language)</h3>
+                    <p>A Flappy Bird clone developed in x86 Assembly language using VGA graphics for real-time rendering
+                        and animation. Multitasking techniques handle user input, game logic, and rendering efficiently
+                        at the hardware level.</p>
+                </div>
+                <div class="Project-item" id="NS">
+                    <h3>Car Rental Management System </h3>
+                    <p>A console-based car rental system built using C++ and object-oriented programming. It manages
+                        vehicles, customers, and rentals using data structures and file handling to model real-world
+                        workflows.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <hr>
+
+            <div class="contact-items">
+                <div class="contact-left">
+                    <h4>E-mail</h4>
+                    <span class="CI">📧 umerkaramat45@gmail.com</span>
+
+                    <h4>Phone</h4>
+                    <span class="CI">📱 +92 3097892710</span>
+
+                    <h4>Location</h4>
+                    <span class="CI">📍 Lahore, Pakistan</span>
+                </div>
+
+                <div class="contact-right">
+                    <h4>GitHub</h4>
+                    <span class="CI">
+                        <a href="https://github.com/UmerKaramat">github.com/UmerKaramat</a>
+                    </span>
+
+                    <h4>LinkedIn</h4>
+                    <span class="CI">
+                        <a href="https://www.linkedin.com/in/umer-karamat-876a80361/">
+                            linkedin.com/in/umer-karamat
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div>
+            <p>&copy; 2026 Umer Karamat. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+window.addEventListener('DOMContentLoaded', () => {
+    // Animate sections
+    const sections = document.querySelectorAll('section');
+    sections.forEach((sec, i) => {
+        setTimeout(() => sec.classList.add('visible'), i * 300);
+    });
+
+    // Animate Technical Skills
+    const techSkills = document.querySelectorAll('.TechnicalSkills div');
+    techSkills.forEach((box, i) => {
+        setTimeout(() => box.classList.add('show'), i * 150);
+    });
+
+    // Animate Soft Skills
+    const softSkills = document.querySelectorAll('.SoftSkills div');
+    softSkills.forEach((box, i) => {
+        setTimeout(() => box.classList.add('show'), i * 150);
+    });
+
+    // Animate Project Items
+    const projects = document.querySelectorAll('.Project-item');
+    projects.forEach((proj, i) => {
+        setTimeout(() => proj.classList.add('show'), i * 200);
+    });
+});
+</script>
+
+
+</body>
+
+</html>
